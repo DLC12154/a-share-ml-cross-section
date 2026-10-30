@@ -1,0 +1,22 @@
+{
+  "price_rows": 731507,
+  "stocks_in_prices": 481,
+  "stocks_in_membership": 481,
+  "stocks_membership_missing_prices": 0,
+  "calendar_days": 1581,
+  "signal_dates": 291,
+  "eligible_rows": 85444,
+  "mean_stocks_per_signal": 293.6219931271478,
+  "label_coverage": 0.9965708534244652,
+  "first_signal_date": "2020-01-02",
+  "last_signal_date": "2025-12-25",
+  "include_liquidity_features": false,
+  "universe_label": "point_in_time_membership_grid_2019_2025_price_panel",
+  "price_sha256": "3f13a8eafb9138ff33a8c0807f143782f229c25f5fac8e3a7e4f7a74f4820a23",
+  "train_rows": 42202,
+  "validation_rows": 14016,
+  "test_rows": 28630,
+  "label": "open[t+6]/open[t+1]-1",
+  "signal": "close[t]",
+  "universe_note": "The price panel covers all 481 historical membership-union stocks. Membership is sampled on the five-day research grid rather than reconstructed for every calendar day."
+}
