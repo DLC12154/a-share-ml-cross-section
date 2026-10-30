@@ -1,0 +1,78 @@
+{
+  "price_rows": 731507,
+  "stocks_in_prices": 481,
+  "stocks_in_membership": 481,
+  "stocks_membership_missing_prices": 0,
+  "calendar_days": 1581,
+  "signal_dates": 291,
+  "eligible_rows": 85444,
+  "mean_stocks_per_signal": 293.6219931271478,
+  "label_coverage": 0.9965708534244652,
+  "first_signal_date": "2020-01-02",
+  "last_signal_date": "2025-12-25",
+  "include_liquidity_features": false,
+  "universe_label": "point_in_time_membership_grid_2019_2025_price_panel",
+  "price_sha256": "3f13a8eafb9138ff33a8c0807f143782f229c25f5fac8e3a7e4f7a74f4820a23",
+  "features": [
+    "cs_ret_1",
+    "cs_ret_5",
+    "cs_ret_10",
+    "cs_ret_20",
+    "cs_ret_60",
+    "cs_ret_120",
+    "cs_vol_5",
+    "cs_ma_dev_5",
+    "cs_vol_20",
+    "cs_ma_dev_20",
+    "cs_vol_60",
+    "cs_ma_dev_60",
+    "cs_range_pos_20",
+    "cs_range_pos_60",
+    "cs_amplitude"
+  ],
+  "model_backend": "scikit-learn MLPRegressor",
+  "seeds": [
+    7,
+    19,
+    31
+  ],
+  "fit_rows": {
+    "development": 42202,
+    "validation": 14016,
+    "train_plus_validation": 56218,
+    "test": 28630
+  },
+  "ridge": {
+    "selected_alpha": 100.0,
+    "validation_rank_ic_by_alpha": {
+      "0.1": 0.08035603667798809,
+      "1.0": 0.0804155603794005,
+      "10.0": 0.08069674778304911,
+      "100.0": 0.08212061998045224
+    }
+  },
+  "lightgbm": {
+    "best_iteration": 149,
+    "status": "trained",
+    "subsample": 0.8,
+    "subsample_freq": 1
+  },
+  "split_rows": {
+    "development": 42202,
+    "validation": 14016,
+    "test": 28630,
+    "train_plus_validation": 56218
+  },
+  "label": "open[t+6]/open[t+1]-1",
+  "signal": "close[t]",
+  "portfolio": {
+    "long_only": true,
+    "top_fraction": 0.2,
+    "primary_cost_bps_one_way": 10.0,
+    "universe_benchmark": "equal_weight_eligible_stocks",
+    "incomplete_holding_periods": "excluded from performance",
+    "turnover": "computed from return-drifted pre-trade weights",
+    "lightgbm_subsample_freq": 1
+  },
+  "universe_note": "The price panel covers all 481 historical membership-union stocks. Membership is sampled on the five-day research grid, not reconstructed for every calendar day. Portfolio results remain analytical and do not model blocked exits."
+}
