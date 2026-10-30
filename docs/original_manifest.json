@@ -1,0 +1,50 @@
+[
+  {
+    "original": "README.md",
+    "organized": "README.md",
+    "bytes": 3604,
+    "sha256": "c6e815c9c3e7971cf2f74fdc4f745f4842ff759779ea1543d127c836235aba7a"
+  },
+  {
+    "original": "requirements.txt",
+    "organized": "requirements.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "original": "sample.ipynb",
+    "organized": "archive/originals/sample.ipynb",
+    "bytes": 1370,
+    "sha256": "d2dd53070a615194d6a10b918d4e932fa50eb04f7b348931a1f3769f316bebd3"
+  },
+  {
+    "original": "notebooks/01_5test.ipynb",
+    "organized": "notebooks/01_single_stock_and_small_universe_prototype.ipynb",
+    "bytes": 206176,
+    "sha256": "03c972aef37f53192fb7a648ee65d0a31225636e4f6d89e44a13d5c28e2810bb"
+  },
+  {
+    "original": "notebooks/02_download_csi300.ipynb",
+    "organized": "notebooks/02_download_and_cache_csi300.ipynb",
+    "bytes": 192409,
+    "sha256": "2874e4e4161e0514dd7c01a4e007cfc912b33deeef2c029ff82ad429602a4374"
+  },
+  {
+    "original": "notebooks/03_momentum_factor_research.ipynb",
+    "organized": "notebooks/03_csi300_momentum_factor_research.ipynb",
+    "bytes": 336005,
+    "sha256": "b57e74912d14ff9bdb96139ce550b60c643efa7415eb22198719bfb710892555"
+  },
+  {
+    "original": "data/raw/csi300_constituents.csv",
+    "organized": "data/raw/csi300_constituents.csv",
+    "bytes": 41434,
+    "sha256": "0e1bb6f440871bafbba9919c9930aa213500e9cf511d1b2476abe0a4d34cd147"
+  },
+  {
+    "original": "data/raw/csi300_prices_2020_2025.parquet",
+    "organized": "data/raw/csi300_prices_2020_2025.parquet",
+    "bytes": 11949663,
+    "sha256": "6a010f0cdc8c7833c6c74261a0e92c912c855231c3d75d4a491a75fa04e06df0"
+  }
+]

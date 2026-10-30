@@ -1,0 +1,37 @@
+{
+  "copied_from": "D:/找工作/个人材料/csi300-momentum-research",
+  "copy_date": "2026-10-29",
+  "primary_files": [
+    {
+      "path": "data/raw/csi300_prices_historical.parquet",
+      "sha256": "3F13A8EAFB9138FF33A8C0807F143782F229C25F5FAC8E3A7E4F7A74F4820A23",
+      "rows": 731507,
+      "stocks": 481,
+      "date_range": [
+        "2019-07-01",
+        "2025-12-31"
+      ]
+    },
+    {
+      "path": "data/reference/csi300_historical_membership.csv",
+      "sha256": "B86282E9A5E1D50D1E83335568367628C276E3D3FFCA21088CE5C771FF58C57B",
+      "rows": 87300,
+      "stocks": 481,
+      "snapshot_dates": 291
+    },
+    {
+      "path": "data/reference/historical_dataset_manifest.json"
+    }
+  ],
+  "legacy_files": [
+    {
+      "path": "data/raw/csi300_prices_2020_2025.parquet",
+      "sha256": "6A010F0CDC8C7833C6C74261A0E92C912C855231C3D75D4A491A75FA04E06DF0",
+      "note": "Old 300-stock current-snapshot file retained for provenance; not used by the current experiments."
+    },
+    {
+      "path": "data/reference/csi300_constituents.csv",
+      "sha256": "0E1BB6F440871BAFBBA9919C9930AA213500E9CF511D1B2476ABE0A4D34CD147"
+    }
+  ]
+}
