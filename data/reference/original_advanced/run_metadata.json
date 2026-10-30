@@ -1,0 +1,39 @@
+{
+  "script": "src\\advanced_research.py",
+  "primary_lookback": 20,
+  "holding_days": 5,
+  "signal": "close_t",
+  "execution": "open_t_plus_1",
+  "long_only_primary": true,
+  "short_leg": "diagnostic_only_not_assumed_executable",
+  "development_period": [
+    "2020-01-02",
+    "2023-12-29"
+  ],
+  "retrospective_holdout_period": [
+    "2024-01-02",
+    "2025-12-31"
+  ],
+  "holdout_character": "Retrospective time holdout. The original project and Git history already contained 2024-2025 results; this is not a pre-frozen OOS.",
+  "min_history_days": 120,
+  "min_adv20_cny": 30000000,
+  "adv_participation_cap": 0.05,
+  "initial_capital_cny": 100000000.0,
+  "commission_rate": 0.0003,
+  "minimum_commission_cny": 5.0,
+  "slippage_rate": 0.0005,
+  "stamp_duty_pre_2023_08_28": 0.001,
+  "stamp_duty_post_2023_08_28": 0.0005,
+  "limit_rules": {
+    "main_board": "10%, ST 5%",
+    "star_market": "20%, ST 5%",
+    "chinext": "10% before 2020-08-24; 20% thereafter; ST 5%",
+    "entry_block": "suspension or open at/near limit-up",
+    "exit_block": "suspension or open at/near limit-down"
+  },
+  "known_omissions": [
+    "board-lot rounding",
+    "bid-ask depth and permanent market impact",
+    "dividend tax and financing costs for the long-only sleeve"
+  ]
+}

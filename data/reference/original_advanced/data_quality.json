@@ -1,0 +1,47 @@
+{
+  "membership_snapshots": 291,
+  "membership_rows": 87300,
+  "all_membership_snapshots_have_300_codes": true,
+  "historical_union_codes": 481,
+  "current_constituent_codes": 300,
+  "historical_codes_no_longer_current": 193,
+  "current_codes_outside_research_window": 12,
+  "price_rows": 731507,
+  "price_codes": 481,
+  "price_date_start": "2019-07-01",
+  "price_date_end": "2025-12-31",
+  "duplicate_price_keys": 0,
+  "null_ohlc_fields": {
+    "open": 0,
+    "high": 0,
+    "low": 0,
+    "close": 0,
+    "preclose": 0
+  },
+  "membership_rows_without_same_day_price": 1,
+  "signal_dates": 291,
+  "signal_rows": 85444,
+  "duplicate_signal_keys": 0,
+  "signal_rows_per_date": {
+    "minimum": 282,
+    "median": 294.0,
+    "maximum": 300
+  },
+  "minimum_active_history_days": 120.0,
+  "minimum_adv20_cny": 30305933.285000004,
+  "execution_lag_calendar_days": {
+    "1": 71343,
+    "3": 11759,
+    "4": 578,
+    "5": 598,
+    "6": 299,
+    "8": 584,
+    "11": 283
+  },
+  "rows_without_realized_exit_label": 293,
+  "all_available_exits_after_execution": true,
+  "stage_signal_observations": {
+    "development_2020_2023": 194,
+    "retrospective_holdout_2024_2025": 97
+  }
+}
